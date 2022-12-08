@@ -10,7 +10,7 @@ namespace Day7
         static void Main(string[] args)
         {
             List<string> listA = new List<string>();
-            using (var reader = new StreamReader(@"C:\Users\johlan002\source\repos\Day7\Day7\input_test.in"))
+            using (var reader = new StreamReader(@"input.in"))
             {
 
                 while (!reader.EndOfStream)
